@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;700&family=Poppins:wght@100;200;300;400;600;700&family=Shadows+Into+Light&family=Work+Sans:ital,
+    wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+    <title>university</title>
+</head>
+<body>
+   <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="../university/images/logo1.png" ></a>
+        <div class="nav-link" id="navlinks">
+            <i class="fa-sharp fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="coures.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+ <h1>contact us</h1>
+   </section>
+
+ 
+
+
+   <!-- contact us -->
+
+
+
+
+   <section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.3314301147875!2d31.21099378488525!3d30.02734808188857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145846db01520851%3A0xbd9781bf40115c5d!2z2KzYp9mF2LnYqSDYp9mE2YLYp9mH2LHYqQ!5e0!3m2!1sar!2seg!4v1663233454828!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+   </section>
+
+
+<section class="contact-us">
+<div class="row">
+    <div class="contact-col">
+    <div>
+        <i class="fa-solid fa-house-user"></i>        <span>
+            <h5>xyz, acb building</h5>
+            <p>Bangalore, karnataka ,in</p>
+        </span>
+    </div>
+    <div>
+        <i class="fa-solid fa-phone"></i>
+        <span>
+            <h5>01110495282</h5>
+            <p>monday to saturday, 10pm to 6pm</p>
+        </span>
+    </div>
+    <div>
+        <i class="fa-solid fa-envelope"></i>        <span>
+            <h5>pbahaa94@gmail.com</h5>
+            <p>Email us your query</p>
+        </span>
+    </div>
+    </div>
+    <div class="contact-col" >
+
+        <form action="form-handel.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter Email address" required>
+            <input type="text" name="subject" placeholder="Enter your subject" required>
+            <textarea  rows="10" name="meassage" placeholder="massage" required></textarea>
+            <button type="submit" class="here-btn red-btn">send massage</button>
+        </form>
+
+    </div>
+</div>
+</section>
+
+
+
+
+<!-- footer -->
+
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>Minds are like parachutes, they only 
+        function when they are open.</p>
+        <div class="icons">
+            <i class="fa-brands fa-linkedin"></i>
+         <i class="fa-brands fa-facebook"></i>
+         <i class="fa-brands fa-twitter"></i>
+         <i class="fa-brands fa-instagram"></i>
+
+        </div>
+        <p>Made with <i class="fa-solid fa-heart"></i> by bahaa pepo </p>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- ------js for toggle menue---- -->
+
+   <script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+   </script>
+</body>
+</html>
